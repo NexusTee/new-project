@@ -1,3 +1,9 @@
 body{
     background-color: antiquewhite;
 }
+
+#nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
