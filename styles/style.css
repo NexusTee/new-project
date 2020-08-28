@@ -1,9 +1,35 @@
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
+  font-family: Helvetica;
+  width: 100%;
+  display: flex;
 }
 
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+img{width:15rem;
+    height:100px;
+    margin-left:-1rem;
+
+}
+#header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem, 3rem;
+}
 #nav-bar{
-    position: fixed;
-    top: 0;
-    left: 0;
+    display:flex;
+    margin-left:2px;
+
+}
+@media only screen and (max-width: 600px) {
+header{flex-direction:column;
+}
+    body {
+    background-color: lightblue;
+  }
 }
